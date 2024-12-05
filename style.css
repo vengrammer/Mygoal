@@ -1,0 +1,136 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(70, 14%, 35%);
+}
+.container .header-title{
+    font-style:normal;
+    color: rgba(250, 3, 3, 0.999);
+}
+.container .title-frontend{
+    color: aqua;
+    font-size: 28px;
+    padding: 2px;
+}
+
+.line{
+    background-color: black;
+    border: 0;
+    height: 3px;
+}
+
+.box-goal{
+    width: 40%;
+    height: 80%;
+    border: 3px solid rgb(53, 253, 8);
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 12px 12px 10px rgb(11, 17, 1);
+    overflow:hidden;
+    background-color: rgb(0, 111, 26);
+}
+.box-goal:hover{
+    width: 50%;
+    height: 90%;
+    transition-duration: 100ms;
+    border: 3px solid rgb(53, 253, 8);
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 12px 12px 10px rgb(11, 17, 1);
+    overflow:hidden;
+    background-color: rgb(0, 111, 26);
+
+}
+
+
+.front-end .html{
+    color: rgb(255, 85, 0);
+    padding: 8px 2px;
+    font-size: 24px;
+
+}
+.html::marker{
+    content: url(icon/html-5\ \(1\).png);
+
+}
+
+
+
+.front-end .css{
+    color:rgb(129, 232, 4);
+    font-size: 24px;
+}
+.css::marker{
+    content: url(icon/css-3.png);
+
+}
+
+
+.css .bootstrap{
+    color: rgb(4, 55, 222);
+    font-size: 20px;
+}
+.bootstrap::marker{
+    content: url(icon/media.png);
+
+}
+
+.javascript {
+    color: rgb(238, 255, 0);
+    font-size: 24px;
+}
+.javascript::marker{
+    content: url(icon/js.png);
+
+}
+
+.javascript .react{
+    color: aqua;
+    font-size: 20px;
+}
+.react::marker{
+    content: url(icon/atom.png);
+
+}
+
+.backend-title{
+    color: rgb(0, 234, 255);
+    font-size: 28px;
+    padding-top: 1px;
+}
+.back-javascript{
+    color: aqua;
+    font-size: 24px;
+}
+.back-javascript::marker{
+    content: url(icon/js.png);
+}
+
+.back-javascript .back-express{
+    color: rgb(211, 243, 6);
+    font-size: 20px;
+}
+.mysql{
+    color: rgb(234, 121, 8);
+    font-size: 24px;
+}
+.mysql::marker{
+    content: url(icon/programing.png)
+}
+
+.monggodb{
+    color: rgb(11, 243, 11);
+    font-size: 24px;
+}
+.monggodb::marker{
+    content: url(icon/database-storage.png);
+}
+
+.message{
+    color:rgb(183, 255, 0);
+    font-style: italic;
+    font-size: 20px;
+    font-size: 18px;
+}
